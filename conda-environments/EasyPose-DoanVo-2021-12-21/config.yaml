@@ -1,0 +1,98 @@
+    # Project definitions (do not edit)
+Task: EasyPose
+scorer: DoanVo
+date: Dec21
+multianimalproject: false
+identity:
+
+    # Project path (change when moving around)
+project_path: C:\Users\kdo6\Downloads\HumanMotionCapture\DeepLab_Human\conda-environments\EasyPose-DoanVo-2021-12-21
+
+    # Annotation data set configuration (and individual video cropping parameters)
+video_sets:
+  C:\Users\kdo6\Downloads\HumanMotionCapture\DeepLab_Human\conda-environments\EasyPose-DoanVo-2021-12-21\videos\EasyPose.mp4:
+    crop: 0, 720, 0, 1280
+bodyparts:
+- left_ankle
+- left_knee
+- left_femoral
+- right_femoral
+- right_knee
+- right_ankle
+- left_wrist
+- left_elbow
+- left_shoulder
+- left_chest
+- right_chest
+- right_shoulder
+- right_elbow
+- right_wrist
+- hip
+- abdominal
+- head
+skeleton:
+- - head
+  - left_chest
+- - head
+  - right_chest
+- - head
+  - abdominal
+- - head
+  - hip
+- - hip
+  - left_femoral
+- - hip
+  - right_femoral
+- - left_femoral
+  - left_knee
+- - right_femoral
+  - right_knee
+- - left_knee
+  - left_ankle
+- - right_knee
+  - right_ankle
+- - left_chest
+  - left_shoulder
+- - left_shoulder
+  - left_elbow
+- - left_elbow
+  - left_wrist
+- - right_chest
+  - right_shoulder
+- - right_shoulder
+  - right_elbow
+- - right_elbow
+  - right_wrist
+start: 0
+stop: 1
+numframes2pick: 20
+
+    # Plotting configuration
+skeleton_color: white
+pcutoff: 0.01
+dotsize: 12
+alphavalue: 0.7
+colormap: rainbow
+
+    # Training,Evaluation and Analysis configuration
+TrainingFraction:
+- 0.95
+iteration: 0
+default_net_type: resnet_50
+default_augmenter: default
+snapshotindex: -1
+batch_size: 8
+
+    # Cropping Parameters (for analysis and outlier frame detection)
+cropping: false
+    #if cropping is true for analysis, then set the values here:
+x1: 0
+x2: 640
+y1: 277
+y2: 624
+
+    # Refinement configuration (parameters from annotation dataset configuration also relevant in this stage)
+corner2move2:
+- 50
+- 50
+move2corner: true

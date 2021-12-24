@@ -1,0 +1,6 @@
+model_checkpoint_path: "/content/drive/My Drive/EasyPose-DoanVo-2021-12-21/dlc-models/iteration-0/EasyPoseDec21-trainset95shuffle1/train/snapshot-2700"
+all_model_checkpoint_paths: "/content/drive/My Drive/EasyPose-DoanVo-2021-12-21/dlc-models/iteration-0/EasyPoseDec21-trainset95shuffle1/train/snapshot-2500"
+all_model_checkpoint_paths: "/content/drive/My Drive/EasyPose-DoanVo-2021-12-21/dlc-models/iteration-0/EasyPoseDec21-trainset95shuffle1/train/snapshot-2550"
+all_model_checkpoint_paths: "/content/drive/My Drive/EasyPose-DoanVo-2021-12-21/dlc-models/iteration-0/EasyPoseDec21-trainset95shuffle1/train/snapshot-2600"
+all_model_checkpoint_paths: "/content/drive/My Drive/EasyPose-DoanVo-2021-12-21/dlc-models/iteration-0/EasyPoseDec21-trainset95shuffle1/train/snapshot-2650"
+all_model_checkpoint_paths: "/content/drive/My Drive/EasyPose-DoanVo-2021-12-21/dlc-models/iteration-0/EasyPoseDec21-trainset95shuffle1/train/snapshot-2700"
