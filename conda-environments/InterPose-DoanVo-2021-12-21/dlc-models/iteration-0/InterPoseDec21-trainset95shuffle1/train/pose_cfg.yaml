@@ -1,0 +1,100 @@
+all_joints:
+- - 0
+- - 1
+- - 2
+- - 3
+- - 4
+- - 5
+- - 6
+- - 7
+- - 8
+- - 9
+- - 10
+- - 11
+- - 12
+- - 13
+- - 14
+- - 15
+- - 16
+all_joints_names:
+- left_ankle
+- left_knee
+- left_femoral
+- right_femoral
+- right_knee
+- right_ankle
+- left_wrist
+- left_elbow
+- left_shoulder
+- left_chest
+- right_chest
+- right_shoulder
+- right_elbow
+- right_wrist
+- hip
+- abdominal
+- head
+alpha_r: 0.02
+apply_prob: 0.5
+batch_size: 1
+clahe: true
+claheratio: 0.1
+crop_sampling: hybrid
+crop_size:
+- 400
+- 400
+cropratio: 0.4
+dataset: training-datasets\iteration-0\UnaugmentedDataSet_InterPoseDec21\InterPose_DoanVo95shuffle1.mat
+dataset_type: imgaug
+decay_steps: 30000
+display_iters: 1000
+edge: false
+emboss:
+  alpha:
+  - 0.0
+  - 1.0
+  embossratio: 0.1
+  strength:
+  - 0.5
+  - 1.5
+global_scale: 0.8
+histeq: true
+histeqratio: 0.1
+init_weights: C:\Users\kdo6\Anaconda3\envs\DEEPLABCUT\lib\site-packages\deeplabcut\pose_estimation_tensorflow\models\pretrained\resnet_v1_50.ckpt
+intermediate_supervision: false
+intermediate_supervision_layer: 12
+location_refinement: true
+locref_huber_loss: true
+locref_loss_weight: 0.05
+locref_stdev: 7.2801
+lr_init: 0.0005
+max_input_size: 1500
+max_shift: 0.4
+metadataset: training-datasets\iteration-0\UnaugmentedDataSet_InterPoseDec21\Documentation_data-InterPose_95shuffle1.pickle
+min_input_size: 64
+mirror: false
+multi_stage: false
+multi_step:
+- - 0.005
+  - 10000
+- - 0.02
+  - 430000
+- - 0.002
+  - 730000
+- - 0.001
+  - 1030000
+net_type: resnet_50
+num_joints: 17
+pairwise_huber_loss: false
+pairwise_predict: false
+partaffinityfield_predict: false
+pos_dist_thresh: 17
+pre_resize: []
+project_path: C:\Users\kdo6\Downloads\HumanMotionCapture\DeepLab_Human\conda-environments\InterPose-DoanVo-2021-12-21
+rotation: 25
+rotratio: 0.4
+save_iters: 50000
+scale_jitter_lo: 0.5
+scale_jitter_up: 1.25
+sharpen: false
+sharpenratio: 0.3
