@@ -1,0 +1,6 @@
+model_checkpoint_path: "/content/drive/My Drive/HardPose-DoanVo-2021-12-21/dlc-models/iteration-0/HardPoseDec21-trainset95shuffle1/train/snapshot-2850"
+all_model_checkpoint_paths: "/content/drive/My Drive/HardPose-DoanVo-2021-12-21/dlc-models/iteration-0/HardPoseDec21-trainset95shuffle1/train/snapshot-2650"
+all_model_checkpoint_paths: "/content/drive/My Drive/HardPose-DoanVo-2021-12-21/dlc-models/iteration-0/HardPoseDec21-trainset95shuffle1/train/snapshot-2700"
+all_model_checkpoint_paths: "/content/drive/My Drive/HardPose-DoanVo-2021-12-21/dlc-models/iteration-0/HardPoseDec21-trainset95shuffle1/train/snapshot-2750"
+all_model_checkpoint_paths: "/content/drive/My Drive/HardPose-DoanVo-2021-12-21/dlc-models/iteration-0/HardPoseDec21-trainset95shuffle1/train/snapshot-2800"
+all_model_checkpoint_paths: "/content/drive/My Drive/HardPose-DoanVo-2021-12-21/dlc-models/iteration-0/HardPoseDec21-trainset95shuffle1/train/snapshot-2850"
